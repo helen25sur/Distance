@@ -189,7 +189,7 @@ body{
 }
 .main-feed {
     max-width: 588px;
-    margin-top: 18px;
+    margin-top: 16px;
     flex-grow: 1;
 }
 .create-post {
@@ -434,11 +434,153 @@ body{
     fill: #0050B3;
     vertical-align: sub;
 }
+.story-main-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+    margin: 0;
+}
+.story-item, 
 .story-item-add {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    margin-bottom: 16px;
 }
-.story-item {
+.story-image {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1890FF;
+    margin-right: 12px;
+}
+.story-item-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* display: flex; */
+    align-items: center;
+    color: #0050B3;
+    width: 100%;
+    display: block;
+}
+.story-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+    width: 100%;
+    word-wrap: break-word;
+}
+.concuria {
+    background-image: url(../img/concuria-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.figma {
+    background-image: url(../img/figma-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.story-additional {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0050B3;
+}
+.birthday {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-left: 24px;
+    padding: 16px;
+}
+.user-birthday {
     display: flex;
     align-items: center;
+    vertical-align: middle;
+}
+.birthday-icon {
+    fill: #1890FF;
+    vertical-align: sub;
+    margin-right: 8px;
+}
+.user-birthday-name {
+    color: #0050B3;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+}
+.user-birthday-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+.your-page {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.your-page-header {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.page-header-title-options {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.your-page-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    margin-bottom: 9px;
+}
+.options-icon {
+    fill: #595959;
+}
+.your-page-body {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.name-message-notification {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+}
+
+.page-body-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0050B3;
 }
